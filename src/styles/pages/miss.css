@@ -1,0 +1,295 @@
+@keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  
+  .hero-section-secondary-miss {
+    z-index: 2;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 100px;
+    display: flex;
+    position: relative;
+    background-image: url('./../../assets/miss/misscover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -5rem;
+  }
+
+  @media (max-width: 1440px) {
+    .hero-section-secondary-miss {
+      margin-top: 20px;
+      background-position-y: unset;
+    }
+  }
+
+  @media (max-width: 460px) {
+    .hero-section-secondary-miss {
+        height: 45vh;
+        background-position-y: unset;
+        background-position: center;
+        width: 100vw;
+        margin-top: 85px;
+    }
+  }
+  
+  .overlay-miss {
+    background-color: #00000033;
+    position: relative;
+    width: 100%;
+    top: 0%;
+    height: 100vh;
+    top: 0%;
+    color: white;
+    font-size: xxx-large;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+ 
+  .overlay-miss .text-miss {
+    padding: 10rem 30rem;
+    display: flex;
+    justify-content: center;
+    display: none;
+  }
+  
+  .overlay-miss .text-miss h1 {
+    text-align: center;
+  }
+  .scroll-container-miss svg {
+    color: white;
+    font-size: 70px;
+  }
+  
+  .scroll-container-miss {
+    display: flex;
+    justify-content: center;
+    animation: moveUpDown 1s infinite;
+    width: 65px;
+    margin: 0 auto;
+    margin-top: 80rem;
+  }
+
+ 
+
+  @media (max-width: 1440px) {
+    .scroll-container-miss {
+      margin-top: 68rem;
+    }
+  }
+
+  @media (max-width: 460px) {
+    .scroll-container-miss {
+      margin-top: 28rem;
+    }
+  }
+
+  .miss-logo {
+    height: 6rem;
+    position: absolute;
+    top: 3rem;
+    right: 1.5rem;
+  }
+
+  @media (max-width: 1440px) {
+    .miss-logo {
+      height: 6rem;
+      top: 8rem;
+    }
+  }
+
+  .relative {
+    position: relative;
+  }
+
+.hero-miss-section {
+    background-color: #f5f5f5;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./../../assets/backgimages/circles.svg");
+}
+
+@media (max-width: 1440px) {
+  .hero-miss-section {
+    padding-bottom: unset;
+  }
+}
+
+@media (max-width: 460px) {
+  .hero-miss-section {
+    padding: 4rem 2rem;
+  }
+}
+
+.hero-miss-container {
+    padding: 2rem 34rem;
+    display: flex;
+}
+
+@media (max-width: 1440px) {
+  .hero-miss-container {
+    padding: 2rem 10rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .hero-miss-container {
+    padding: 2rem 2rem;
+  }
+}
+
+
+  .home-votes-body {
+    z-index: 50;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  @media (max-width: 460px) {
+    .home-votes-body {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+
+  .home-votes-card {
+    margin-bottom: 30px;
+    padding: 80px 50px;
+    width: 470px;
+    border-radius: 20px;
+    background-color: #3a3d69;
+  }
+
+  .miss-title {
+    margin-bottom: 25px;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: var(--psred);
+  }
+
+  .home-votes-info p {
+    font-size: 17px;
+    text-align: justify;
+    line-height: 35px;
+  }
+
+  .home-votes-cover {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-miss-cover {
+  height: 60rem;
+  margin-top: -10rem;
+  margin-right: -10rem;
+}
+
+
+@media ((max-width: 1280px) and (min-width: 1025px)) { 
+  .hero-miss-cover {
+    height: 52rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .hero-miss-cover {
+    height: 45rem;
+    margin-top: -5rem;
+    margin-right: unset;
+  }
+}
+
+.miss-inscription {
+  padding: 2rem 34rem;
+}
+
+@media (max-width: 1440px) {
+  .miss-inscription {
+    padding: 2rem 14rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .miss-inscription {
+    padding: 2rem 2rem;
+  }
+}
+
+.justify {
+  text-align: justify;
+}
+
+.projects-rich-text.w-richtext.justify ol li span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media (max-width: 460px) {
+  .projects-rich-text.w-richtext.justify ol li span {
+    font-size: 19px;
+  }
+}
+
+.projects-rich-text.w-richtext.justify ul li span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.affiche-miss {
+  height: 53rem;
+}
+
+@media (max-width: 1440px) {
+  .affiche-miss {
+    height: 57rem;
+  }
+}
+
+@media ((max-width: 1280px) and (min-width: 1025px)) { 
+  .affiche-miss {
+    height: 47rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .affiche-miss {
+    height: 18rem;
+  }
+}
+
+.affiche-section {
+  display: flex;
+  justify-content: center;
+  padding: 8rem 0;
+}
+
+@media (max-width: 1440px) {
+  .affiche-section {
+    padding: 0;
+  }
+}
+
+@media (max-width: 460px) {
+  .affiche-section {
+    padding: 0;
+  }
+}

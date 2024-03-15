@@ -1,0 +1,66 @@
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.scrollToTop {
+  background-color: var(--orange);
+  border-radius: 100%;
+  position: fixed;
+  height: 8rem;
+  width: 8rem;
+  bottom: 40px;
+  right: 40px;
+  z-index: 2000;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+  animation: moveUpDown 2s infinite;
+  box-shadow: 0px 0px 20rem rgba(0, 0, 0, 0.575);
+}
+
+@media (max-width: 1440px) {
+  .scrollToTop {
+    height: 6rem;
+    width: 6rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .scrollToTop {
+    height: 5rem;
+    width: 5rem;
+    bottom: 70px;
+    right: 35px;
+    z-index: 16;
+  }
+}
+
+.scrollToTop svg {
+  color: var(--psred);
+  font-size: 4rem;
+  transition: color 0.3s ease-in-out;
+}
+
+@media (max-width: 1440px) {
+  .scrollToTop svg {
+    font-size: 3rem;
+  }
+}
+
+.scrollToTop:hover {
+  background-color: var(--psred);
+}
+
+.scrollToTop:hover svg {
+  color: var(--orange);
+}

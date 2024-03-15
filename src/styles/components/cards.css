@@ -1,0 +1,173 @@
+.service-card-container {
+    display: flex;
+    padding: 5rem 10rem;
+    justify-content: space-between;
+    background-color: var(--secondary);
+}
+
+@media (max-width: 1440px) {
+    .service-card-container {
+        padding: 5rem 2rem;
+    }
+}
+
+
+.first-card {
+    height: 312px;
+    width: 312px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    padding: 3rem;
+}
+
+@media (max-width: 1440px) {
+    .first-card {
+        height: 250px;
+        width: 230px;
+    }
+}
+
+.upper-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.arrows {
+    height: 104px;
+    width: 104px;
+    margin-top: -1.2rem;
+}
+
+@media (max-width: 1440px) {
+    .arrows {
+        height: 80px;
+    }
+}
+
+.left-arrow-container {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
+@media (max-width: 1440px) {
+    .left-arrow-container {
+        width: 26%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .design-text {
+        font-size: 36px;
+        line-height: 33px;
+    }
+}
+
+.design-text {
+    color: #1c1c1c;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+@media (max-width: 1440px) {
+    .design-text {
+        font-size: 36px;
+        line-height: 33px;
+    }
+}
+
+.design-text h2 {
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+.design-text .stroked-out {
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #1c1c1c;
+}
+
+.bottom-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.bottom-container .bottom-text {
+    color: #1c1c1c;
+    font-size: 30px;
+}
+
+
+/* ----------------- second card -------------------- */
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.first-card .upper-container .second-card-title {
+    color: var(--black);
+    font-size: 25px;
+    margin: 0;
+}
+
+.first-card .second-card-deg {
+    color: white;
+    font-size: 60px;
+    margin: 0;
+}
+
+/* ----------------- third card -------------------- */
+
+.first-card .upper-container .third {
+    color: white;
+    display: flex;
+    width: 100%;
+}
+
+.first-card .upper-container .third p {
+    margin: 0;
+    font-size: 30px;
+}
+
+.first-card .upper-container .third .GoArrowUpRight {
+    font-size: 90px;
+    margin-top: -1.5rem;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.third-card-text {
+    color: white;
+    font-size: 40px;
+    margin: 0;
+}
+
+@media (max-width: 1440px) {
+    .third-card-text {
+        font-size: 30px;
+    }
+}
+
+/* ----------------- fourth card -------------------- */
+
+.bottom-container .fourth {
+    margin-top: 2rem;
+    font-size: 50px;
+    color: #1c1c1c;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.MdOutlineDoubleArrow {
+    color: var(--orange);
+    font-size: 100px;
+}
