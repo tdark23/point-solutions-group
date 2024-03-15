@@ -4,7 +4,7 @@ import { useScroll } from "./../hooks/useScroll.js";
 import { motion } from "framer-motion";
 
 import "./../styles/components/metrics.css";
-import { fromDown, fromUp } from "../utils/Animations.js";
+import { fromDown } from "../utils/Animations.js";
 
 const Metrics = () => {
   const [element, controls] = useScroll();

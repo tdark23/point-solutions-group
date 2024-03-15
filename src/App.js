@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { RiMenu3Fill } from "react-icons/ri";
 import { TfiClose } from "react-icons/tfi";
 import { motion, AnimateSharedLayout, AnimatePresence } from "framer-motion";
@@ -8,7 +8,6 @@ import "./App.css";
 // Components
 import "./styles/components/header.css";
 import logo from "./assets/images/pslogoweb.png";
-import Loader from "./components/Loader";
 import Footer from "./components/Footer";
 
 import {
@@ -34,8 +33,6 @@ function App() {
 
   // remettre la valeur à true lorsqu'on vas gérer le loading
 
-  const [loading, setLoading] = useState(false);
-
   const [mobileMenuView, setMobileMenuView] = useState(false);
 
   const showSidebar = () => {
@@ -45,12 +42,6 @@ function App() {
   const hideSidebar = () => {
     setMobileMenuView(false);
   };
-
-  useEffect(() => {
-    loading
-      ? document.querySelector("body").classList.add("loading")
-      : document.querySelector("body").classList.remove("loading");
-  }, [loading]);
 
   const [isHovered, setIsHovered] = useState(false);
 
@@ -118,11 +109,6 @@ function App() {
     <AnimateSharedLayout type="crossfade">
       <AnimatePresence>
         <div>
-          {/* {loading ? (
-            <motion.div key="loader">
-              <Loader setLoading={setLoading} />
-            </motion.div>
-          ) : ( */}
           <Router>
             <motion.div
               initial={{ opacity: 0, y: -180 }}
@@ -215,7 +201,7 @@ function App() {
                 <ContactPage />
               </Route>
               <Route exact path="/">
-                <HomePage loading={loading} />
+                <HomePage />
               </Route>
               <Route path="*">
                 <NotFoundPage />
@@ -224,7 +210,6 @@ function App() {
             <ScrollToTop />
             <Footer />
           </Router>
-          {/* )} */}
         </div>
       </AnimatePresence>
     </AnimateSharedLayout>

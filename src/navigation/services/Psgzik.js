@@ -94,49 +94,49 @@ function Psgzik() {
             className="mySwiper"
           >
             <SwiperSlide>
-              <img src="https://dcodedtv.com/wp-content/uploads/2019/01/stanley-enow-motherland-empire-daicko.jpg" />
+              <img src="https://dcodedtv.com/wp-content/uploads/2019/01/stanley-enow-motherland-empire-daicko.jpg" alt="swiper "/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://www.culturebene.com/wp-content/uploads/sites/4/2023/11/401579980_895863305238366_7855080062484557826_n.jpg" />
+              <img src="https://www.culturebene.com/wp-content/uploads/sites/4/2023/11/401579980_895863305238366_7855080062484557826_n.jpg" alt="swiper "/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://s.rfi.fr/media/display/da331bba-1548-11ea-a478-005056bf7c53/w:980/p:16x9/charlotte-dipanda-ip.webp" />
+              <img src="https://s.rfi.fr/media/display/da331bba-1548-11ea-a478-005056bf7c53/w:980/p:16x9/charlotte-dipanda-ip.webp" alt="swiper "/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://www.auletch.com/wp-content/uploads/2021/09/phibill.jpg" />
+              <img src="https://www.auletch.com/wp-content/uploads/2021/09/phibill.jpg" alt="swiper "/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Indira_en_2022.jpg" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Indira_en_2022.jpg" alt="swiper "/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Locko_en_show_case.jpg" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Locko_en_show_case.jpg" alt="swiper "/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://fr.journalducameroun.com/wp-content/uploads/2023/01/326136817_9454212147937988_2207764456352731651_n.jpg" />
+              <img src="https://fr.journalducameroun.com/wp-content/uploads/2023/01/326136817_9454212147937988_2207764456352731651_n.jpg" alt="swiper "/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://actucameroun.com/wp-content/uploads/2024/01/500x500-1.jpg" />
+              <img src="https://actucameroun.com/wp-content/uploads/2024/01/500x500-1.jpg" alt="swiper "/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://source.boomplaymusic.com/group10/M00/03/21/4df5044a1d5b46f1ae80ec0a4bbf428a_320_320.jpg" />
+              <img src="https://source.boomplaymusic.com/group10/M00/03/21/4df5044a1d5b46f1ae80ec0a4bbf428a_320_320.jpg" alt="swiper "/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://www.billboard.com/wp-content/uploads/2023/06/Asake-cr-Ola-Alabi-billboard-1548.jpg" />
+              <img src="https://www.billboard.com/wp-content/uploads/2023/06/Asake-cr-Ola-Alabi-billboard-1548.jpg" alt="swiper "/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://blueprintafric.com/wp-content/uploads/2022/10/Screenshot-2022-10-17-110152.jpg" />
+              <img src="https://blueprintafric.com/wp-content/uploads/2022/10/Screenshot-2022-10-17-110152.jpg" alt="swiper "/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://media.pitchfork.com/photos/5d124a04c612b8855d663bab/1:1/w_720,h_720,c_limit/remaheader1440.jpg" />
+              <img src="https://media.pitchfork.com/photos/5d124a04c612b8855d663bab/1:1/w_720,h_720,c_limit/remaheader1440.jpg" alt="swiper "/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://i.guim.co.uk/img/media/dbac34d3006580e07209c8883705cdf3869d6d3a/631_2_3096_1858/master/3096.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=a8dfa7ac9e54a4463801bc581d438bd4" />
+              <img src="https://i.guim.co.uk/img/media/dbac34d3006580e07209c8883705cdf3869d6d3a/631_2_3096_1858/master/3096.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=a8dfa7ac9e54a4463801bc581d438bd4" alt="swiper "/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://prod.cdn-medias.jeuneafrique.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=1215,fit=cover,gravity=0.5123x0.2353/https://prod.cdn-medias.jeuneafrique.com/medias/2023/11/22/jad20231122-cm-musique-fallyipupa.jpg" />
+              <img src="https://prod.cdn-medias.jeuneafrique.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=1215,fit=cover,gravity=0.5123x0.2353/https://prod.cdn-medias.jeuneafrique.com/medias/2023/11/22/jad20231122-cm-musique-fallyipupa.jpg" alt="swiper "/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="https://www.afrique-sur7.ci/wp-content/uploads/2023/10/ks-bloom-5.jpg" />
+              <img src="https://www.afrique-sur7.ci/wp-content/uploads/2023/10/ks-bloom-5.jpg" alt="swiper "/>
             </SwiperSlide>
           </Swiper>
         </div>

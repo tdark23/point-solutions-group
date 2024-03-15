@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./../../styles/pages/pscreative.css";
 import "./../../styles/pages/afrijeune.css";
-import subimage from "./../../assets/images/musique.webp";
 
 function ServicePagePrototype({
   serviceDatas,
