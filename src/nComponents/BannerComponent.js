@@ -1,5 +1,5 @@
 import React from "react";
-import videoSource from "./../assets/videos/bannerv.mp4";
+// import videoSource from "./../assets/videos/bannerv.mp4";
 import "./../styles/nComponents/bannerComponent.css";
 import { Link } from "react-router-dom";
 
@@ -7,9 +7,9 @@ function BannerComponent() {
   return (
     <div className="banner-section">
       <div className="shadow" />
-      <video autoPlay loop muted playsInline className="banner-video">
+      {/* <video autoPlay loop muted playsInline className="banner-video">
         <source src={videoSource} type="video/mp4" />
-      </video>
+      </video> */}
       <div className="textaria-banner">
         <div className="text-banner-wrapper">
           <div className="banner-text-container">

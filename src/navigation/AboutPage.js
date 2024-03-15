@@ -24,7 +24,7 @@ import ReachOut from "../nComponents/ReachOut";
 
 //  team images imports*
 
-import fabrice from "./../assets/site/fabrice.jpg";
+import fabrice from "./../assets/site/fab.jpg";
 import iness from "./../assets/site/Iness.jpg";
 import leader from "./../assets/site/LeaderAcceuil.jpg";
 import serge from "./../assets/site/Serge.jpg";
@@ -223,7 +223,7 @@ function AboutPage() {
           </div>
           <Metrics />
 
-          {/* <Swiper
+          <Swiper
             effect={"coverflow"}
             grabCursor={true}
             centeredSlides={true}
@@ -288,7 +288,7 @@ function AboutPage() {
             <SwiperSlide>
               <img src="https://www.afrique-sur7.ci/wp-content/uploads/2023/10/ks-bloom-5.jpg" />
             </SwiperSlide>
-          </Swiper> */}
+          </Swiper>
         </div>
       </section>
       <section>
