@@ -15,9 +15,9 @@
   }
 
 @media (max-width: 460px) {
-    /* .banner-section {
-        height: 100vh;
-    } */
+     .banner-section {
+        background-position: center;
+    }
   }
 
 .shadow {
