@@ -1,4 +1,3 @@
-import movieProject from "./../assets/images/movie-project.jpg";
 import branding_phone from "./../assets/images/image-branding.jpg";
 import branding_phone1 from "./../assets/images/image-branding-1.jpeg";
 import branding_phone2 from "./../assets/images/image-branding-2.jpeg"
