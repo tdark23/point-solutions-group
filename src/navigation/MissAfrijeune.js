@@ -189,8 +189,12 @@ function MissAfrijeune() {
                 hôtel, avec tous les frais pris en charge par notre agence.
               </li>
               <li>
-                <span>Cadeaux de luxe :</span> <br /> En plus de ces magnifiques
-                prix, des cadeaux de luxe vous seront également offerts.
+                <span>Cadeaux de luxe :</span> <br /> En plus de ces superbes
+                prix, nous offrons également des cadeaux de luxe, y compris un
+                iPhone 11 Pro pour la gagnante, accompagné d'une somme d'argent
+                en espèces. De plus, nous proposons un accompagnement
+                personnalisé dans la réalisation des projets du comité et des
+                initiatives personnelles.
               </li>
             </ul>
             <p>‍</p>
